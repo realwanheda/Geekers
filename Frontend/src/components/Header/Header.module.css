@@ -1,0 +1,143 @@
+.header {
+  font-family: "serif";
+  background-color: #070c17db;
+  width: 100%vw;
+  height: 5rem;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: large;
+}
+.mode {
+  cursor: pointer;
+}
+.pages {
+  cursor: pointer;
+}
+.topLeft {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  flex: 3;
+  height: 3rem;
+  justify-content: space-between;
+}
+
+.topCenter {
+  flex: 6;
+}
+.topCenter ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+.topCenter ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 6rem;
+}
+.topCenter ul li:hover {
+  box-shadow: 0px 0px 10px 3.5px white;
+}
+
+.topRight {
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  height: 3rem;
+}
+.topRight .button {
+  height: 2rem;
+  width: 5rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .topCenter ul {
+    display: none;
+  }
+  .topRight {
+    display: none;
+  }
+  .topLeft {
+    margin-left: 0.5rem;
+  }
+  .logo {
+    display: none;
+  }
+  .header {
+    height: 3rem;
+  }
+  .topLeft {
+    margin-left: 0.5rem;
+  }
+  .topCenter {
+    display: none;
+  }
+  .topRight {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .topLeft {
+    margin-left: 0.5rem;
+  }
+  .topCenter {
+    display: none;
+  }
+  .topRight {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .topCenter ul {
+    display: none;
+  }
+  .topRight {
+    display: none;
+  }
+  .topLeft {
+    margin-left: 0.5rem;
+  }
+  .logo {
+    display: none;
+  }
+  .header {
+    height: 3rem;
+  }
+  .topLeft {
+    margin-left: 0.5rem;
+  }
+  .topCenter {
+    display: none;
+  }
+  .topRight {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+}
